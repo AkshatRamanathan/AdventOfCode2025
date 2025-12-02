@@ -28,7 +28,7 @@ for turn in turns:
     
 
 print(ans)
-
+#COMPLETED!!!!
 
 # 50 -> R80 => 130 -> 30,1 30<50 means crossover +1zero
 # 50 -> L80 => -30 -> 70,1 70>50 means crossover +1zero
