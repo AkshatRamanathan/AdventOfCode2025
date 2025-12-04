@@ -17,3 +17,22 @@ print(ans)
 # and there is no repetition in first half. but if found in first hlaf means we found our repeating pattern which is invalid
 # hence (s+s).index(s,1)<len(s) from https://algo.monster/liteproblems/459
 # SOLVED!!!
+
+
+
+# ANOTHER SOLUTION WITH ROHIT
+# PART 1 SAME AS PART 2 WITH NO + IN REGEX -> '^(\d+)\1$'
+# didnt work for me coz no ^ and $
+# ^ is begin matcher and $ is end matcher
+# PART 2->
+# import re
+# pattern = re.compile(r'^(\d+)\1+$')
+# key = 0
+# for x in ranges:
+#     l=int(x[0])
+#     u=int(x[1])
+#     for i in range(l,u+1):
+#        if pattern.search(str(i)):
+#            # print(i)
+#            key+=i
+# print(key)
