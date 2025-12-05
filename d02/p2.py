@@ -26,7 +26,7 @@ print(ans)
 # ^ is begin matcher and $ is end matcher
 # PART 2->
 # import re
-# pattern = re.compile(r'^(\d+)\1+$')
+# pattern = re.compile(r'^(\d+)\1+$') #only add + rest same
 # key = 0
 # for x in ranges:
 #     l=int(x[0])
