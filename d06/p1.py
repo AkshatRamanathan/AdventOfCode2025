@@ -1,3 +1,11 @@
+# cut input into 2 parts, values and last line as operations
+# split cleanup and conversions done on both parts to ignore whitespaces and format to numbers, arr of str oper
+# loop over column wise and for each row get value and based on operation add or mul to temp value
+# for each column, add temp value into answer
+
+# WORKS -> 5171061464548
+
+
 ans=0
 with open('file.txt') as f:
 # with open('test.txt') as f:
